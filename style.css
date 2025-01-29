@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(229, 156, 156);
+}
+
+h1{
+    background-color: black;
+    color: white;
+    margin-top: 3px;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+}
+img{
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.choice{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.win{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.winning,#user , #comp{
+    font-size: 30px;
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    display: inline;
+    
+}
+
+.message{
+    margin-top: 60px;
+}
