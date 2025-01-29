@@ -15,6 +15,7 @@ choices.forEach((choice) =>{
        playgame(userchoice);
     });
    });
+   
 
 //This is for accessing the moves of computer
 const genCompChoice = () => {
